@@ -1,0 +1,159 @@
+@font-face {
+    font-family: italicFont;
+    src: url(https://fonts.gstatic.com/s/labelleaurore/v10/RrQIbot8-mNYKnGNDkWlocovHeI4HO2E.woff2);
+}
+
+body, html {
+    color: #000;
+    font-size: 18px;
+    height: 100%;
+    line-height: 1.8em;
+    font-weight: 400;
+    color: #666;
+}
+
+.italic {
+    font-family: italicFont;
+}
+
+.background-img {
+    background-image: url('../images/bg1.jpg');
+    position: relative;
+    opacity: 0.70;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.section {
+    font-family: Lato, Arial, sans-serif;
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.txtbox {
+    font-family: Lato, Arial, sans-serif;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: capitalize;
+}
+
+.txtbox .heading-box {
+    background-color: #111;
+    color: #fff;
+    padding: 40px 20px 40px 20px;
+    width: 40%;
+    margin: 30px auto
+}
+
+.txtbox .subheading-box {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+.txtbox .border .transparent {
+    background-color: transparent;
+}
+
+footer {
+    text-align: center;
+    color: #0000;
+    font-size: 27px;
+}
+
+footer .footer-box {
+    background-color: #111;
+    color: #fff;
+    padding: 30px 20px 5px 20px;
+}
+
+footer .footer-box .icons {
+    letter-spacing: 14px;
+}
+
+.icons .icon {
+    color: #fff;
+}
+
+.img-fluid {
+    width: 85%
+}
+
+/* Skills section */
+
+.fl {
+    float: left
+}
+
+.split-left {
+    width: 100%;
+}
+
+ul.tags {
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px
+}
+
+ul.tags li {
+    float: left;
+    background: #eee;
+    margin: 3px 5px;
+    background: #f7f7f7;
+    color: #333;
+    padding: 3px 8px
+}
+
+ul.tags li.int {
+    background: #eee;
+    color: #111
+}
+
+ul.tags li.pro {
+    background: #ddd;
+    color: #000
+}
+
+.sub-section {
+    float: left;
+    width: 170%;
+    margin-bottom: 10px
+}
+
+@media print {
+    .sub-section {
+        margin-top: 5px;
+        margin-bottom: 0
+    }
+}
+
+.sub-section .title {
+    font-style: italic
+}
+
+/* overlay on images for disabling right clicks */
+
+/* .img-container {
+    position: relative;
+}
+
+.img-container:after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+} */

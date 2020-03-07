@@ -1,2 +1,1 @@
-# sushantgulati1.github.io
-Initial commit
+Personal profile for Github pages (https://sushantgulati1.github.io)
