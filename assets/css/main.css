@@ -94,7 +94,7 @@ footer .footer-box .icons {
 }
 
 .split-left {
-    width: 100%;
+    width: 125%;
 }
 
 ul.tags {
@@ -127,7 +127,7 @@ ul.tags li.pro {
 
 .sub-section {
     float: left;
-    width: 170%;
+    width: 100%;
     margin-bottom: 10px
 }
 
@@ -140,6 +140,40 @@ ul.tags li.pro {
 
 .sub-section .title {
     font-style: italic
+}
+
+.padding-box {
+    padding: 3em;
+}
+
+@media screen and (max-width: 600px) {
+    .txtbox .heading-box {
+        padding: 20px;
+        width: 70%;
+        margin: 10px auto;
+        letter-spacing: 0.2em;
+        font-size: 0.7em
+    }
+    .txtbox .subheading-box {
+        letter-spacing: 0.2em;
+        font-size: 0.5em;
+        padding: 7px 40px;
+    }
+    .padding-box {
+        padding: 3em 3em 0 3em;
+    }
+    .marginBottom {
+        margin-bottom: 3em;
+    }
+    footer .footer-box .icons {
+        letter-spacing: 10px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    footer .footer-box .icons {
+        letter-spacing: 6px;
+    }
 }
 
 /* overlay on images for disabling right clicks */
